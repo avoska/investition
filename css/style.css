@@ -81,17 +81,18 @@
 }
 
 .header_slider_text {
-	font-family: kurale;
-	margin-top: 20vh;
+	font-family: Arial;
+	margin-top: 35vh;
 	font-size: 3.5em;
 }
 
 .slider_text {
-	font-family: robo;
+	font-family: Arial;
 	font-size: 1.5em;
 }
 
 .btn-info1 {
+	margin-top: 15vh;
 	background-color: #648baa;
 	border-bottom-color: #3273a5;
 	border-bottom-width: 4px;
