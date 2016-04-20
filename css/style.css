@@ -81,14 +81,14 @@
 }
 
 .header_slider_text {
-	font-family: Arial;
+	font-family: robo;
 	margin-top: 25vh;
 	font-size: 3.5em;
 }
 
 .slider_text {
 	margin-top: 5vh;
-	font-family: Arial;
+	font-family: kurale;
 	font-size: 1.5em;
 }
 
@@ -119,30 +119,24 @@
 }
 
 .img1 {
-	background: url("../img/slider_img1.jpg") no-repeat;
+	background: url("../img/slider_img1.jpg") center no-repeat;
 	background-size: cover;
-	height: 55vh;
 	display: block;
 }
-
 .img2 {
-	background: url("../img/slider_img1.jpg") no-repeat;
+	background: url("../img/slider_img1.jpg") center no-repeat;
 	background-size: cover;
-	height: 55vh;
 	display: block;
 }
-
 .img3 {
 	background: url("../img/slider_img1.jpg") no-repeat;
 	background-size: cover;
-	height: 55vh;
 	display: block;
 }
 
 .img4 {
 	background: url("../img/slider_img1.jpg") no-repeat;
 	background-size: cover;
-	height: 55vh;
 	display: block;
 }
 
@@ -169,64 +163,39 @@
 }
 
 .round1 {
-	margin-top: 30vh;
+	background: url("../img/round_2.png") center no-repeat;
+	background-size: contain;
+	vertical-align: bottom;
+	padding: 15px;
 }
-
-.round1:hover {
-	margin-left: -3vw;
-	margin-top: 10vh;
-	height: 40vh;
-	width: 40vh;
-}
-
 .round2 {
-	margin-top: 30vh;
+	padding: 15px;
+	background: url("../img/round_2.png") center no-repeat;
+	background-size: contain;
 
+	vertical-align: bottom;
 }
-
-.round2:hover {
-	margin-left: -3vw;
-	margin-top: 10vh;
-	height: 40vh;
-	width: 40vh;
-}
-
 .round3 {
-	margin-top: 30vh;
-
+	padding: 15px;
+	background: url("../img/round_2.png") center no-repeat;
+	background-size: contain;
+	vertical-align: bottom;
 }
-
-.round3:hover {
-	margin-left: -3vw;
-	margin-top: 10vh;
-	height: 40vh;
-	width: 40vh;
+.round_text1{
+	margin-bottom: 0;
+	margin-top: 15px;
+	font-size: 0.8em;
 }
-
-.round4 {
-	margin-top: 30vh;
-
+.round_text{
+	font-size: 0.8em;
 }
-
-.round4:hover {
-	margin-left: -3vw;
-	margin-top: 10vh;
-	height: 40vh;
-	width: 40vh;
+.z5{
+	margin-top: 22vh;
 }
-
-.z5 {
-	z-index: 5;
+hr{
+	margin: 0;
+	max-width: 100px;
 }
-
-.z4 {
-	z-index: 4;
-}
-
-.z3 {
-	z-index: 3;
-}
-
-.z2 {
-	z-index: 2;
+.rel_t{
+	position: relative;
 }
